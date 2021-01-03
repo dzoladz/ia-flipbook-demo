@@ -101,6 +101,8 @@ function instantiateBookReader(selector, extraOptions) {
     ui: 'full', // embed, full (responsive)
 
     el: selector,
+
+    startFullscreen: true,
   };
   $.extend(options, extraOptions);
   var br = new BookReader(options);
